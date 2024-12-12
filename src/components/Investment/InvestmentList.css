@@ -1,0 +1,26 @@
+.investment-list {
+    margin-top: 20px;
+  }
+  
+  .investment-list h3 {
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .investment-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 16px;
+  }
+  
+  .investment-item:last-child {
+    border-bottom: none;
+  }
+  
+  .investment-item span {
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,140 @@
+.home {
+  background: white;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+  gap: 10px;
+}
+
+.logo-container-1 {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.nav-links-1 {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.nav-links-1 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn,
+.get-started-btn {
+  font-size: 16px;
+  padding: 18px 30px;
+  border-radius: 30px;
+  border: 2px solid  #9e8d1c;
+  cursor: pointer;
+  background:   #9e8d1c;
+}
+
+.get-started-btn {
+  background:  #9e8d1c;
+  color: rgb(16, 14, 14);
+}
+
+.main-content {
+
+  text-align: center;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.main-content h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.main-content p {
+  font-size: 16px;
+  color: #000000;
+  max-width: 600px;
+  margin: 10px auto 20px;
+}
+
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cta-register,
+.cta-learn {
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 20px;
+  cursor: pointer;
+  background:  #9e8d1c;
+}
+
+.cta-learn {
+  background:  #9e8d1c;
+  color: rgb(0, 0, 0);
+}
+
+.promo-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.cash {
+  width: 100%;
+  max-width: 1400px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .auth-buttons {
+    flex-wrap: wrap;
+  }
+
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cta-buttons {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.investments-tracker-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.left-section {
+  flex: 1;
+  background: linear-gradient(to right, #9e8d1c, #4d4613);;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.left-section p {
+  font-size: 1.2rem;
+  max-width: 400px;
+  color: #030303;
+}
+
+
+.right-section {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-button {
+  background-color: #050c12;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #21262b;
+}
+
+.investment-list-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.investment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.investment-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.investment-item span {
+  color: #333;
+}
+
+.no-investments {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.freedom-tracker-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.freedom-tracker-title:hover {
+  color: #000000;
+  
+}
+
+.financial-image {
+  width: 550px;
+  height: auto;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: opacity 1s ease;
+}
+
+.financial-image.hidden {
+  opacity: 0;
+}
+
+.financial-image.visible {
+  opacity: 1;
+}

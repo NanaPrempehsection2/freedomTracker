@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../00-starter"
+		},
+		{
+			"path": "../../../starter_kit/starter_kit"
+		},
+		{
+			"path": "../../../05-complete_jwt_bookstore"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Modern-web"
+	}
+}

@@ -1,0 +1,18 @@
+.expense-list h3 {
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 16px;
+  }
+  
+  .expense-item:last-child {
+    border-bottom: none;
+  }
+  
